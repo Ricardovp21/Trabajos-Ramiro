@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="382dp"
+        android:layout_weight="1"
+        android:background="#297307" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="542dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="179dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/mexico" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="382dp"
+        android:layout_weight="1"
+        android:background="#730707" />
+
+</LinearLayout>
+
+
+
+
+
