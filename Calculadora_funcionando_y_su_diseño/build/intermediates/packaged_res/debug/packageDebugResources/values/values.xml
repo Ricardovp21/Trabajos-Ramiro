@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">calculadora</string>
+    <style name="Base.Theme.Calculadora" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:backgroundTint">#ee2f2f</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Theme.Calculadora" parent="Base.Theme.Calculadora"/>
+    <style name="estiloC" parent="CalculatorButton">
+            <item name="android:backgroundTint">#fea302</item>
+        </style>
+    <style name="estiloG" parent="CalculatorButton">
+        <item name="android:backgroundTint">#c8c5be</item>
+    </style>
+    <style name="estilopanta" parent="CalculatorButton">
+        <item name="android:backgroundTint">#c8c5be</item>
+    </style>
+</resources>
