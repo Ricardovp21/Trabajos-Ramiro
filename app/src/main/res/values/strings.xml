@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lottie file</string>
+        <string name="login_button_text">Iniciar Sesión</string>
+        <string name="username_hint">Usuario</string>
+        <string name="password_hint">Contraseña</string>
+
+</resources>
