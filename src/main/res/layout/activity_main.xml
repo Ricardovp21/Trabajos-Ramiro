@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+<TextView
+android:id="@+id/pantalla"
+android:layout_width="0dp"
+android:layout_height="100dp"
+android:layout_margin="16dp"
+    android:background="@drawable/bordepantalla"
+android:gravity="end|center_vertical"
+android:padding="16dp"
+android:text="0"
+android:textColor="#000"
+android:textSize="36sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+
+<GridLayout
+android:id="@+id/gridLayout"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_margin="16dp"
+android:alignmentMode="alignMargins"
+android:columnCount="4"
+android:rowCount="5"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/pantalla">
+
+<Button android:id="@+id/btnLimpiar" android:text="C" style="@style/estiloC" />
+<Button android:id="@+id/btnDividir" android:text="÷" style="@style/estiloC" />
+<Button android:id="@+id/btnMultiplicar" android:text="×" style="@style/estiloC" />
+<Button android:id="@+id/btnBorrar" android:text="⌫" style="@style/estiloC" />
+
+
+<Button android:id="@+id/btnSiete" android:text="7" style="@style/estiloG" />
+<Button android:id="@+id/btnOcho" android:text="8" style="@style/estiloG" />
+<Button android:id="@+id/btnNueve" android:text="9" style="@style/estiloG" />
+<Button android:id="@+id/btnRestar" android:text="−" style="@style/estiloC" />
+
+
+<Button android:id="@+id/btnCuatro" android:text="4" style="@style/estiloG" />
+<Button android:id="@+id/btnCinco" android:text="5" style="@style/estiloG" />
+<Button android:id="@+id/btnSeis" android:text="6" style="@style/estiloG" />
+<Button android:id="@+id/btnSumar" android:text="+" style="@style/estiloC" />
+
+
+<Button android:id="@+id/btnUno" android:text="1" style="@style/estiloG" />
+<Button android:id="@+id/btnDos" android:text="2" style="@style/estiloG" />
+<Button android:id="@+id/btnTres" android:text="3" style="@style/estiloG" />
+<Button android:id="@+id/btnIgual" android:text="=" style="@style/estiloC"  />
+
+
+<Button android:id="@+id/btnCero" android:text="0" style="@style/estiloG" />
+<Button android:id="@+id/btnPunto" android:text="." style="@style/estiloG" />
+</GridLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
